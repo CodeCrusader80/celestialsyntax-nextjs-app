@@ -3,15 +3,21 @@ import {About, Explore, Feedback, GetStarted, Hero, Insight, WhatsNew, World} fr
 
 const Page = () => (
     <div className={"bg-primary-black overflow-hidden"}>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Explore/>
-      <GetStarted/>
-      <WhatsNew/>
+    <Navbar/>
+    <Hero/>
+    <About/>
+    <Explore/>
+      <div className={"relative"}>
+            <GetStarted/>
+                  <div className={"gradient-04 z-0"}/>
+            <WhatsNew/>
+      </div>
       <World/>
-      <Insight/>
-      <Feedback/>
+      <div className={"relative"}>
+            <Insight/>
+                  <div className={"gradient-04 z-0"}/>
+            <Feedback/>
+      </div>
       <Footer/>
     </div>
 );
