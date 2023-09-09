@@ -22,7 +22,7 @@ export const exploreWorlds = [
     {
         id: 'world-5',
         imgUrl: '/planet-05.png',
-        title: 'MoonSun crosse'
+        title: 'MoonSun cross'
     },
 ];
 
