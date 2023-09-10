@@ -44,9 +44,9 @@ const World = () => (
                         className={"w-full h-full"}
                     />
                 </div>
-                <div className={"absolute top-1/2 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"}>
+                <div className={"absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]"}>
                     <img
-                        src={"/people-01.png"}
+                        src={"/people-03.png"}
                         alt={"people"}
                         className={"w-full h-full"}
                     />
