@@ -21,10 +21,9 @@ const InsightCard = ({imgUrl, title, subtitle, index}) => (
                 <img
                     src={"/arrow-circle-up-right-svgrepo-com.svg"}
                     alt={"arrow"}
-                    className={"lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] pl-3"}
+                    className={"lg:w-[70px] lg:h-[70px] w-[40px] h-[40px] pl-3"}
                 />
             </div>
-
         </div>
     </motion.div>
 );
