@@ -61,18 +61,22 @@ export const socials = [
     {
         name: 'Twitter',
         url: '/twitter-x-logo.svg',
+        link: 'https://twitter.com/theunknowman_80'
     },
     {
         name: 'Linkedin',
-        url: '/linkedin-rounded-border-svgrepo-com.svg'
+        url: '/linkedin-rounded-border-svgrepo-com.svg',
+        link: 'https://www.linkedin.com/in/mathieu-moutarde-3a6a00180/'
     },
     {
         name: 'Instagram',
         url: '/instagram-svgrepo-com.svg',
+        link: '#'
     },
     {
         name: 'Facebook',
-        url: '/facebook-svgrepo-com.svg'
+        url: '/facebook-svgrepo-com.svg',
+        link: '#'
     },
 ];
 
