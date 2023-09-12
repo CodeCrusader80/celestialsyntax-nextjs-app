@@ -30,12 +30,14 @@ const Hero = () => (
             </div>
             <motion.div
             variants={slideIn('right', 'tween', 0.2, 1)}
-            className={"relative w-full md:-mt-[50px] -mt-[10px]"}
+            className={"relative w-full md:-mt-[20px] -mt-[12px]"}
             >
+                <div className={"absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"}/>
+
                     <img
                     src={"/cover.png"}
                     alt={"cover"}
-                    className={"w-full sm:h-[450px] h-[300px] rounded-tl-[140px] object-cover z-10 relative"}
+                    className={"w-full sm:h-[500px] h-[350px] rounded-tl-[140px] object-cover z-10 relative"}
                     />
                     <a href={"#explore"}>
                         <div className={"w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10"}>

@@ -10,13 +10,13 @@ const Footer = () => (
         variants={footerVariants}
         initial={"hidden"}
         whileInView={"show"}
-        className={`${styles.paddings} py-8 relative`}
+        className={`${styles.xPaddings} py-8 relative`}
     >
         <div className={"footer-gradient"}/>
-        <div className={`${styles.innerWidth} mx-auto flex flex-auto gap-8`}>
-            <div className={"flex items-center justify-between flex-wrap gap-10"}>
+        <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+            <div className={"flex items-center justify-between flex-wrap gap-5"}>
                     <h4 className={"font-bold md:text-[64px] text-[44px] text-white"}>Enter the Metaverse </h4>
-                <button type={"button"} className={"flex items-center h-fit py-4 px-8 bg-[#25618B] rounded-[32px] gap-[12px]"}>
+                <button type={"button"} className={"flex items-center py-3 px-5 bg-[#25618B] rounded-[32px] gap-[10px]"}>
                     <img src={"/vr-svgrepo-com.svg"} alt={"headset"} className={"w-[25px] h-[25px] object-contain"}/>
                     <span className={"font-normal text-[16px] text-white"}>ENTER METAVERSE</span>
                 </button>
